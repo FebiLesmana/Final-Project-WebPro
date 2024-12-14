@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Ujian</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+        .nav a.active {
+            color: #00f;
+        }
+        .container {
+            padding: 20px;
+        }
+        .container h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .exam-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .exam-details {
+            flex: 1;
+        }
+        .exam-details p {
+            margin: 5px 0;
+        }
+        .exam-result {
+            text-align: center;
+            width: 100px;
+        }
+        .exam-result p {
+            margin: 5px 0;
+        }
+        .exam-result .score {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .footer .social-icons {
+            margin: 10px 0;
+        }
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        @media (max-width: 768px) {
+            .exam-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .exam-result {
+                width: 100%;
+                text-align: left;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SMP IBU KARTINI</h1>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#" class="active">E-Ujian</a>
+            <a href="#">Pendaftaran</a>
+            <a href="#">Pengumuman</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2>My Ujian</h2>
+        <div class="exam-card">
+            <div class="exam-details">
+                <h3>Ujian Tengah Semester Matematika</h3>
+                <p>Mulai : 07.30</p>
+                <p>Sifat : Fixed</p>
+                <p>Durasi : 90 Menit</p>
+                <p>Batas : 27 Oktober 2024 07.30 - 09.00</p>
+            </div>
+            <div class="exam-result">
+                <p class="score">80</p>
+                <p>Hasil</p>
+            </div>
+        </div>
+        <div class="exam-card">
+            <div class="exam-details">
+                <h3>Ujian Tengah Semester Ilmu Pengetahuan Alam</h3>
+                <p>Mulai : 07.30</p>
+                <p>Sifat : Flexibel</p>
+                <p>Durasi : 90 Menit</p>
+                <p>Batas : 27 Oktober 2024 07.30 - 18.00</p>
+            </div>
+            <div class="exam-result">
+                <p class="score">82</p>
+                <p>Hasil</p>
+            </div>
+        </div>
+        <div class="exam-card">
+            <div class="exam-details">
+                <h3>Ujian Tengah Semester Bahasa Inggris</h3>
+                <p>Mulai : 07.30</p>
+                <p>Sifat : Fixed</p>
+                <p>Durasi : 90 Menit</p>
+                <p>Batas : 28 Oktober 2024 07.30 - 09.00</p>
+            </div>
+            <div class="exam-result">
+                <p class="score">NA</p>
+                <p>Kerjakan</p>
+            </div>
+        </div>
+        <div class="exam-card">
+            <div class="exam-details">
+                <h3>Ujian Tengah Semester PPKN</h3>
+                <p>Mulai : 07.30</p>
+                <p>Sifat : Fixed</p>
+                <p>Durasi : 90 Menit</p>
+                <p>Batas : 28 Oktober 2024 09.30 - 12.00</p>
+            </div>
+            <div class="exam-result">
+                <p class="score">NA</p>
+                <p>Kerjakan</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>SMP IBU KARTINI</h3>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+        <p>Copyright © 2024. All Right Reserved.</p>
+    </div>
+</body>
+</html>
+            
