@@ -1,6 +1,7 @@
 /* === General Body Styling === */
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 /* === Heading Styling === */
